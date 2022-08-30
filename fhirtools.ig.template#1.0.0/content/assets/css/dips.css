@@ -1,0 +1,42 @@
+#segment-footer > .container {
+    background-color: #d32d28;
+}
+.navbar-inverse {
+    background-color: #4D4F53;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:active  {
+    background-color: #d32d28;
+}
+
+#hl7-nav {
+    margin: 10px;
+    /* float: left; */
+}
+
+#hl7-logo {    
+    float: left;
+}
+#family-logo {    
+    float: right;
+}
+
+#segment-header{
+    background-color: #fff;
+}
+
+.dropdown-menu li > a:hover {
+    background-color: #4D4F53;
+    color:#fff;
+}
+
+/*
+--btn-gradient-start-color
+{
+    background-color: #4D4F53;
+}
+
+--btn-gradient-end-color{
+    background-color: #323436;
+} 
+*/

@@ -1,0 +1,12 @@
+{
+  "fhirVersions": [
+    "4.0.1"
+  ],
+  "name": "fhirtools.ig.template",
+  "version": "1.0.0",
+  "description": "FHIR profiles, IG used in the digital health training series ",
+  "author": "Janaka Peiris",
+  "dependencies": {
+    "hl7.fhir.r4.core": "4.0.1"
+  }
+}

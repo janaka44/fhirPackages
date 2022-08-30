@@ -1,0 +1,850 @@
+{
+	"tree" : 
+	{
+		"nodeName" : "Observation",
+		"name" : "FHIR Observation",
+		"type" : "type1",
+		"code" : "",
+		"label" : "FHIR Resource",
+		"version" : "v1.0",
+		"link" : {
+				"name" : "Link NODE NAME 1",
+				"nodeName" : "NODE NAME 1",
+				"direction" : "ASYN"
+			},
+		"children" : [{
+				"nodeName" : "NoDomainVitalSignsObservationBloodpressure",
+				"name" : "NoDomainVitalSignsObservationBloodpressure",
+				"type" : "type2",
+				"code" : "N2.1",
+				"label" : "Norwegian Profile",
+				"version" : "v1.0",
+				"link" : {
+						"name" : "Link node 1 to 2.1",
+						"nodeName" : "NODE NAME 2.1",
+						"direction" : "ASYN"
+					},
+				"children" : [{
+						"nodeName" : "DipsDomainVitalSignsObservationBloodpressure",
+						"name" : "DipsDomainVitalSignsObservationBloodpressure",
+						"type" : "type3",
+						"code" : "N3.1",
+						"label" : "DIPS Profile",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.1 to 3.1",
+								"nodeName" : "NODE NAME 3.1",
+								"direction" : "ASYN"
+							},
+						"children" : [
+							{
+								"nodeName" : "DipsJournalIdExtension",
+								"name" : "DipsJournalIdExtension",
+								"type" : "type4",
+								"code" : "DipsJournalId",
+								"label" : "DIPS Extension",
+								"version" : "v1.0",
+								"link" : {
+										"name" : "Link node 2.1 to 3.1",
+										"nodeName" : "NODE NAME 3.1",
+										"direction" : "ASYN"
+									},
+								"children" : []
+							}
+						]
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationHeadTiltExtension",
+						"name" : "NoDomainVitalSignsObservationHeadTiltExtension",
+						"type" : "type4",
+						"code" : "headTiltAngle",
+						"label" : "Extension: headTiltAngle",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.1 to 3.1",
+								"nodeName" : "NODE NAME 3.1",
+								"direction" : "SYNC"
+							},
+						"children" : []
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationSleepStatusExtension",
+						"name" : "NoDomainVitalSignsObservationSleepStatusExtension",
+						"type" : "type4",
+						"code" : "sleepStatus",
+						"label" : "Extension: sleepStatus",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.1 to 3.1",
+								"nodeName" : "NODE NAME 3.1",
+								"direction" : "SYNC"
+							},
+						"children" : []
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationCuffSizeExtension",
+						"name" : "NoDomainVitalSignsObservationCuffSizeExtension",
+						"type" : "type4",
+						"code" : "cuffSize",
+						"label" : "Extension: cuffSize",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.1 to 3.1",
+								"nodeName" : "NODE NAME 3.1",
+								"direction" : "SYNC"
+							},
+						"children" : []
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationLevelOfExertionExtension",
+						"name" : "NoDomainVitalSignsObservationLevelOfExertionExtension",
+						"type" : "type4",
+						"code" : "levelOfExertion",
+						"label" : "Extension: levelOfExertion",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.1 to 3.1",
+								"nodeName" : "NODE NAME 3.1",
+								"direction" : "SYNC"
+							},
+						"children" : []
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationBloodPressureBodyPositionExtension",
+						"name" : "NoDomainVitalSignsObservationBloodPressureBodyPositionExtension",
+						"type" : "type4",
+						"code" : "bodyPosition",
+						"label" : "Extension: bodyPosition",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.1 to 3.1",
+								"nodeName" : "NODE NAME 3.1",
+								"direction" : "SYNC"
+							},
+						"children" : []
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationBloodPressureFormulaExtension",
+						"name" : "NoDomainVitalSignsObservationBloodPressureFormulaExtension",
+						"type" : "type4",
+						"code" : "formulaMAPCalc",
+						"label" : "Extension: formulaMAPCalc",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.1 to 3.1",
+								"nodeName" : "NODE NAME 3.1",
+								"direction" : "SYNC"
+							},
+						"children" : []
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationBloodPressureFormulaExtension",
+						"name" : "NoDomainVitalSignsObservationBloodPressureFormulaExtension",
+						"type" : "type4",
+						"code" : "formulaDiastolicCalc",
+						"label" : "Extension: formulaDiastolicCalc",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.1 to 3.1",
+								"nodeName" : "NODE NAME 3.1",
+								"direction" : "SYNC"
+							},
+						"children" : []
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationBloodPressureFormulaExtension",
+						"name" : "NoDomainVitalSignsObservationBloodPressureFormulaExtension",
+						"type" : "type4",
+						"code" : "formulaSystolicCalc",
+						"label" : "Extension: formulaDiastolicCalc",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.1 to 3.1",
+								"nodeName" : "NODE NAME 3.1",
+								"direction" : "SYNC"
+							},
+						"children" : []
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationDiastolicEndPointExtension",
+						"name" : "NoDomainVitalSignsObservationDiastolicEndPointExtension",
+						"type" : "type4",
+						"code" : "diastolicEndpoint",
+						"label" : "Extension",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.1 to 3.1",
+								"nodeName" : "NODE NAME 3.1",
+								"direction" : "SYNC"
+							},
+						"children" : []
+					}
+				]				
+			}, {
+				"nodeName" : "NoDomainVitalSignsObservationBodyHeight",
+				"name" : "NoDomainVitalSignsObservationBodyHeight",
+				"type" : "type2",
+				"code" : "N2.2",
+				"label" : "Norwegian Profile",
+				"version" : "v1.0",
+				"link" : {
+						"name" : "Link node 1 to 2.2",
+						"nodeName" : "NODE NAME 2.2",
+						"direction" : "ASYN"
+					},
+				"children" : [
+						{
+							"nodeName" : "DipsDomainVitalSignsObservationBodyHeight",
+							"name" : "DipsDomainVitalSignsObservationBodyHeight",
+							"type" : "type3",
+							"code" : "N3.1",
+							"label" : "DIPS Profile",
+							"version" : "v1.0",
+							"link" : {
+									"name" : "Link node 2.1 to 3.1",
+									"nodeName" : "NODE NAME 3.1",
+									"direction" : "ASYN"
+								},
+							"children" : [
+								{
+									"nodeName" : "DipsJournalIdExtension",
+									"name" : "DipsJournalIdExtension",
+									"type" : "type4",
+									"code" : "DipsJournalId",
+									"label" : "DIPS Extension",
+									"version" : "v1.0",
+									"link" : {
+											"name" : "Link node 2.1 to 3.1",
+											"nodeName" : "NODE NAME 3.1",
+											"direction" : "ASYN"
+										},
+									"children" : []
+								}
+							]
+						},
+						{
+							"nodeName" : "NoDomainVitalSignsObservationBodyHeightBodyPositionExtension",
+							"name" : "NoDomainVitalSignsObservationBodyHeightBodyPositionExtension",
+							"type" : "type4",
+							"code" : "N3.3",
+							"label" : "Extension",
+							"version" : "v1.0",
+							"link" : {
+									"name" : "Link node 2.3 to 3.3",
+									"nodeName" : "NODE NAME 3.3",
+									"direction" : "ASYN"
+								},
+							"children" : []
+							
+						}
+				]
+			}, 
+			{
+				"nodeName" : "NoDomainVitalSignsObservationBodyTemp",
+				"name" : "NoDomainVitalSignsObservationBodyTemp",
+				"type" : "type2",
+				"code" : "N2.3",
+				"label" : "Norwegian Profile",
+				"version" : "v1.0",
+				"link" : {
+						"name" : "Link node 1 to 2.3",
+						"nodeName" : "NODE NAME 2.3",
+						"direction" : "ASYN"
+					},
+				"children" : [ 
+					{
+						"nodeName" : "DipsDomainVitalSignsObservationBodyTemp",
+						"name" : "DipsDomainVitalSignsObservationBodyTemp",
+						"type" : "type3",
+						"code" : "N3.1",
+						"label" : "DIPS Profile",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.1 to 3.1",
+								"nodeName" : "NODE NAME 3.1",
+								"direction" : "ASYN"
+							},
+						"children" : [
+							{
+								"nodeName" : "DipsJournalIdExtension",
+								"name" : "DipsJournalIdExtension",
+								"type" : "type4",
+								"code" : "DipsJournalId",
+								"label" : "DIPS Extension",
+								"version" : "v1.0",
+								"link" : {
+										"name" : "Link node 2.1 to 3.1",
+										"nodeName" : "NODE NAME 3.1",
+										"direction" : "ASYN"
+									},
+								"children" : []
+							}
+						]
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationBodyExposureExtension",
+						"name" : "NoDomainVitalSignsObservationBodyExposureExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: bodyExposure",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationDaysSinceMenstruationStartExtension",
+						"name" : "NoDomainVitalSignsObservationDaysSinceMenstruationStartExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: daysSinceMenstruationStart",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationLevelOfExertionExtension",
+						"name" : "NoDomainVitalSignsObservationLevelOfExertionExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: levelofexertion",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationActiveHeatingExtension",
+						"name" : "NoDomainVitalSignsObservationActiveHeatingExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: activeHeating",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationHeatingDeviceExtension",
+						"name" : "NoDomainVitalSignsObservationHeatingDeviceExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: heatingDevice",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					}
+				]
+			},
+			{
+				"nodeName" : "NoDomainVitalSignsObservationBodyWeight",
+				"name" : "NoDomainVitalSignsObservationBodyWeight",
+				"type" : "type2",
+				"code" : "N2.3",
+				"label" : "Norwegian Profile",
+				"version" : "v1.0",
+				"link" : {
+						"name" : "Link node 1 to 2.3",
+						"nodeName" : "NODE NAME 2.3",
+						"direction" : "ASYN"
+					},
+				"children" : [ 
+					{
+						"nodeName" : "DipsDomainVitalSignsObservationBodyWeight",
+						"name" : "DipsDomainVitalSignsObservationBodyWeight",
+						"type" : "type3",
+						"code" : "N3.1",
+						"label" : "DIPS Profile",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.1 to 3.1",
+								"nodeName" : "NODE NAME 3.1",
+								"direction" : "ASYN"
+							},
+						"children" : [
+							{
+								"nodeName" : "DipsJournalIdExtension",
+								"name" : "DipsJournalIdExtension",
+								"type" : "type4",
+								"code" : "DipsJournalId",
+								"label" : "DIPS Extension",
+								"version" : "v1.0",
+								"link" : {
+										"name" : "Link node 2.1 to 3.1",
+										"nodeName" : "NODE NAME 3.1",
+										"direction" : "ASYN"
+									},
+								"children" : []
+							}
+						]
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationClothingStateExtension",
+						"name" : "NoDomainVitalSignsObservationClothingStateExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: clothingState",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationConfundingFactorExtension",
+						"name" : "NoDomainVitalSignsObservationConfundingFactorExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: confundingFactor",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					}
+				]
+			},
+			{
+				"nodeName" : "NoDomainVitalSignsObservationBodyMassIndex",
+				"name" : "NoDomainVitalSignsObservationBodyMassIndex",
+				"type" : "type2",
+				"code" : "N2.3",
+				"label" : "Norwegian Profile",
+				"version" : "v1.0",
+				"link" : {
+						"name" : "Link node 1 to 2.3",
+						"nodeName" : "NODE NAME 2.3",
+						"direction" : "ASYN"
+					},
+				"children" : [ 
+					{
+						"nodeName" : "DipsDomainVitalSignsObservationBodyMassIndex",
+						"name" : "DipsDomainVitalSignsObservationBodyMassIndex",
+						"type" : "type3",
+						"code" : "N3.1",
+						"label" : "DIPS Profile",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.1 to 3.1",
+								"nodeName" : "NODE NAME 3.1",
+								"direction" : "ASYN"
+							},
+						"children" : [
+							{
+								"nodeName" : "DipsJournalIdExtension",
+								"name" : "DipsJournalIdExtension",
+								"type" : "type4",
+								"code" : "DipsJournalId",
+								"label" : "DIPS Extension",
+								"version" : "v1.0",
+								"link" : {
+										"name" : "Link node 2.1 to 3.1",
+										"nodeName" : "NODE NAME 3.1",
+										"direction" : "ASYN"
+									},
+								"children" : []
+							}
+						]
+					},
+					{
+						"nodeName" : "NoDomainVSObservationBodyMassIndexFormulaExtension",
+						"name" : "NoDomainVSObservationBodyMassIndexFormulaExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: formula",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					},
+					{
+						"nodeName" : "NoDomainVSObservationBodyMassIndexConfundingFactorExtension",
+						"name" : "NoDomainVSObservationBodyMassIndexConfundingFactorExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: confoundingFactors",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					}
+				]
+			},{
+				"nodeName" : "NoDomainVitalSignsObservationOxygenSaturation",
+				"name" : "NoDomainVitalSignsObservationOxygenSaturation",
+				"type" : "type2",
+				"code" : "N2.3",
+				"label" : "Norwegian Profile",
+				"version" : "v1.0",
+				"link" : {
+						"name" : "Link node 1 to 2.3",
+						"nodeName" : "NODE NAME 2.3",
+						"direction" : "ASYN"
+					},
+				"children" : [ 
+					{
+						"nodeName" : "DipsDomainVitalSignsObservationOxygenSaturation",
+						"name" : "DipsDomainVitalSignsObservationOxygenSaturation",
+						"type" : "type3",
+						"code" : "N3.1",
+						"label" : "DIPS Profile",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.1 to 3.1",
+								"nodeName" : "NODE NAME 3.1",
+								"direction" : "ASYN"
+							},
+						"children" : [
+							{
+								"nodeName" : "DipsJournalIdExtension",
+								"name" : "DipsJournalIdExtension",
+								"type" : "type4",
+								"code" : "DipsJournalId",
+								"label" : "DIPS Extension",
+								"version" : "v1.0",
+								"link" : {
+										"name" : "Link node 2.1 to 3.1",
+										"nodeName" : "NODE NAME 3.1",
+										"direction" : "ASYN"
+									},
+								"children" : []
+							}
+						]
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationLevelOfExertionExtension",
+						"name" : "NoDomainVitalSignsObservationLevelOfExertionExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: levelOfExertion",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationInspiredOxygenExtension",
+						"name" : "NoDomainVitalSignsObservationInspiredOxygenExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: inspiredOxygen",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					}
+				]
+			},{
+				"nodeName" : "",
+				"name" : "NoDomainVitalSignsObservationPulse",
+				"type" : "type2",
+				"code" : "N2.3",
+				"label" : "Norwegian Profile",
+				"version" : "v1.0",
+				"link" : {
+						"name" : "Link node 1 to 2.3",
+						"nodeName" : "NODE NAME 2.3",
+						"direction" : "ASYN"
+					},
+				"children" : [ 
+					{
+						"nodeName" : "DipsDomainVitalSignsObservationPulse",
+						"name" : "DipsDomainVitalSignsObservationPulse",
+						"type" : "type3",
+						"code" : "N3.1",
+						"label" : "DIPS Profile",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.1 to 3.1",
+								"nodeName" : "NODE NAME 3.1",
+								"direction" : "ASYN"
+							},
+						"children" : [
+							{
+								"nodeName" : "DipsJournalIdExtension",
+								"name" : "DipsJournalIdExtension",
+								"type" : "type4",
+								"code" : "DipsJournalId",
+								"label" : "DIPS Extension",
+								"version" : "v1.0",
+								"link" : {
+										"name" : "Link node 2.1 to 3.1",
+										"nodeName" : "NODE NAME 3.1",
+										"direction" : "ASYN"
+									},
+								"children" : []
+							}
+						]
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationLevelOfExertionExtension",
+						"name" : "NoDomainVitalSignsObservationLevelOfExertionExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: levelOfExertion",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationHeartRhythmExtension",
+						"name" : "NoDomainVitalSignsObservationHeartRhythmExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: heartRythm",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationClinicalDescriptionExtension",
+						"name" : "NoDomainVitalSignsObservationClinicalDescriptionExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: clinicalDescription",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationCharacterOfHeartRateExtension",
+						"name" : "NoDomainVitalSignsObservationCharacterOfHeartRateExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: characterOfHeartrate",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationHeartRateBodyPositionExtension",
+						"name" : "NoDomainVitalSignsObservationHeartRateBodyPositionExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: bodyPosition",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationHeartRhythmExtension",
+						"name" : "NoDomainVitalSignsObservationHeartRhythmExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: heartRythmIrregularity",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					}
+				]
+			},{
+				"nodeName" : "NoDomainVitalSignsObservationRespirationRate",
+				"name" : "NoDomainVitalSignsObservationRespirationRate",
+				"type" : "type2",
+				"code" : "N2.3",
+				"label" : "Norwegian Profile",
+				"version" : "v1.0",
+				"link" : {
+						"name" : "Link node 1 to 2.3",
+						"nodeName" : "NODE NAME 2.3",
+						"direction" : "ASYN"
+					},
+				"children" : [ 
+					{
+						"nodeName" : "DipsDomainVitalSignsObservationRespirationRate",
+						"name" : "DipsDomainVitalSignsObservationRespirationRate",
+						"type" : "type3",
+						"code" : "N3.1",
+						"label" : "DIPS Profile",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.1 to 3.1",
+								"nodeName" : "NODE NAME 3.1",
+								"direction" : "ASYN"
+							},
+						"children" : [
+							{
+								"nodeName" : "DipsJournalIdExtension",
+								"name" : "DipsJournalIdExtension",
+								"type" : "type4",
+								"code" : "DipsJournalId",
+								"label" : "DIPS Extension",
+								"version" : "v1.0",
+								"link" : {
+										"name" : "Link node 2.1 to 3.1",
+										"nodeName" : "NODE NAME 3.1",
+										"direction" : "ASYN"
+									},
+								"children" : []
+							}
+						]
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationLevelOfExertionExtension",
+						"name" : "NoDomainVitalSignsObservationLevelOfExertionExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: levelOfExertion",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationHeartRhythmExtension",
+						"name" : "NoDomainVitalSignsObservationHeartRhythmExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: heartRythm",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationClinicalDescriptionExtension",
+						"name" : "NoDomainVitalSignsObservationClinicalDescriptionExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: clinicalDescription",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationCharacterOfHeartRateExtension",
+						"name" : "NoDomainVitalSignsObservationCharacterOfHeartRateExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: characterOfHeartrate",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationHeartRateBodyPositionExtension",
+						"name" : "NoDomainVitalSignsObservationHeartRateBodyPositionExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: bodyPosition",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					},
+					{
+						"nodeName" : "NoDomainVitalSignsObservationHeartRhythmExtension",
+						"name" : "NoDomainVitalSignsObservationHeartRhythmExtension",
+						"type" : "type4",
+						"code" : "N3.3",
+						"label" : "Extension: heartRythmIrregularity",
+						"version" : "v1.0",
+						"link" : {
+								"name" : "Link node 2.3 to 3.3",
+								"nodeName" : "NODE NAME 3.3",
+								"direction" : "ASYN"
+							},
+						"children" : []
+						
+					}
+				]
+			}						
+		]
+	}
+}
